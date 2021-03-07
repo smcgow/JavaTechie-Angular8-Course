@@ -10,12 +10,12 @@ import java.util.List;
 @RestController
 public class BookController {
 
-    @CrossOrigin("http://localhost:57382")
+    @CrossOrigin("http://localhost:50978")
     @GetMapping("/findAllBooks")
-    public List<Book> getBooks(){
+    public List<Book> getBooks() {
 
-        return List.of(new Book(1,"Shawshank",12.50),
-                new Book(2,"pulp fiction",14.50),
-                new Book(3,"Rome and juliet",17.90));
+        return List.of(new Book(1, "Shawshank", 12.50),
+                new Book(2, "pulp fiction", 14.50),
+                new Book(3, "Rome and juliet", 17.90));
     }
 }
