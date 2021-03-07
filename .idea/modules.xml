@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaTechie-Angular8-Course.iml" filepath="$PROJECT_DIR$/.idea/JavaTechie-Angular8-Course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/AngularFrontEnds/todo-client/.idea/todo-client.iml" filepath="$PROJECT_DIR$/Projects/AngularFrontEnds/todo-client/.idea/todo-client.iml" />
+    </modules>
+  </component>
+</project>
