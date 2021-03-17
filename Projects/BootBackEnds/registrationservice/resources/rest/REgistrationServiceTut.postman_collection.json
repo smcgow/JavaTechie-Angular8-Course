@@ -1,0 +1,104 @@
+{
+	"info": {
+		"_postman_id": "3efdd16d-bdb1-46b5-9bb4-b01fcaad657f",
+		"name": "REgistrationServiceTut",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"Aoife.walsh@live.ie\",\r\n    \"name\":\"Aoife Walsh\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9093/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9093",
+					"path": [
+						"register"
+					]
+				},
+				"description": "registers the user and returns a string indicating success"
+			},
+			"response": []
+		},
+		{
+			"name": "register Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"Aoife.walsh@live.ie\",\r\n    \"name\":\"Aoife Walsh\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9093/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9093",
+					"path": [
+						"register"
+					]
+				},
+				"description": "registers the user and returns a string indicating success"
+			},
+			"response": []
+		},
+		{
+			"name": "findAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "finds all users on the registration service."
+			},
+			"response": []
+		},
+		{
+			"name": "findUser",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "Finds user by email\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "CancelRegistration",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "Cancels a previouslu made registration"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
